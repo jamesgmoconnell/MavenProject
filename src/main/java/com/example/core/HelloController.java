@@ -11,6 +11,41 @@ public class HelloController {
 		return "Hello!\n";
 	}
 	
+	@RequestMapping("/monday")
+	public String monday() {
+		return "monday!\n";
+	}
+	
+	@RequestMapping("/tuesday")
+	public String tuesday() {
+		return "tuesday!\n";
+	}
+	
+	@RequestMapping("/wednesday")
+	public String wednesday() {
+		return "wednesday!\n";
+	}
+	
+	@RequestMapping("/thursday")
+	public String thursday() {
+		return "thursday!\n";
+	}
+	
+	@RequestMapping("/friday")
+	public String friday() {
+		return "friday!\n";
+	}
+	
+	@RequestMapping("/saturday")
+	public String saturday() {
+		return "saturday!\n";
+	}
+	
+	@RequestMapping("/sunday")
+	public String sunday() {
+		return "sunday!\n";
+	}
+	
 	@RequestMapping("/goodbye")
 		public String goodbye() {
 		return "Goodbye!\n";
