@@ -6,4 +6,4 @@ echo "Run JMeter performance test"
 # -n tells jmeter o run in "nogui" mode
 # -t points to te test plan
 # -l outputs results to a log file
-jmeter -n -t JMeterSpringTest_Plan.jmx -l JMeterSpringTest_Results.jtl
+jmeter -n -t JMeterSpringTestPlan.jmx -l JMeterSpringTest_Results.jtl
