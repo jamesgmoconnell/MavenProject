@@ -9,7 +9,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="site" elementType="Argument">
             <stringProp name="Argument.name">site</stringProp>
-            <stringProp name="Argument.value">jenkins.westeurope.cloudapp.azure.com</stringProp>
+            <stringProp name="Argument.value">http://azure2performance01.cloudapp.net/</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
